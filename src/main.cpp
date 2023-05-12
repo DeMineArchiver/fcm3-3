@@ -1,9 +1,14 @@
 #include <iostream>
+#include <format>
+#include <mymath.h>
 
-using namespace std;
+using namespace math::geometry;
 
 int main() {
-    cout << "Hello, world!\n";
+    std::cout << "Hello, world!\n";
+
+    float r = 25.5;
+    std::cout << circle::area(r) << "\n";
 
     system("pause");
     return 0;
